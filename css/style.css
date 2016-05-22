@@ -1,0 +1,31 @@
+/**************************
+ * FONTS
+ **************************/
+ /*
+@font-face { font-family: "Martel"; src: local(Martel UltraLight), url("../fonts/martel/Martel-UltraLight.ttf") format("truetype"); font-weight: 200; }
+@font-face { font-family: "Martel"; src: local(Martel Light), url("../fonts/martel/Martel-Light.ttf") format("truetype"); font-weight: 300; }
+@font-face { font-family: "Martel"; src: local(Martel Regular), url("../fonts/martel/Martel-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Martel"; src: url("../fonts/martel/Martel-Medium.ttf") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Martel"; src: url("../fonts/martel/Martel-Bold.ttf") format("truetype"); font-weight: 700; }
+*/
+/**************************
+ * STYLES
+ **************************/
+/* 
+html { color: #144A54; font-family: Martel, Calibri, Trebuchet, sans-serif; }
+*/
+.navbar-fixed { height: inherit; }
+.no-margin { margin: 0; }
+.no-padding { margin: 0; }
+/**************************
+ * MEDIA QUIERIES
+ **************************/
+@media only screen and (min-width: 993px) {
+  .container { width: 55%; }
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 796px) {
+}
+@media only screen and (max-width: 600px) {
+}

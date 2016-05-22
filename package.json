@@ -1,0 +1,21 @@
+{
+  "name": "medicalwebpage",
+  "version": "1.0.0",
+  "description": "Medical Web Page",
+  "author": "Jorge Mario Romero Arroyo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jromerobluewebfactory/medicalwebpage.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-uncss": "^0.5.0"
+  }
+}
