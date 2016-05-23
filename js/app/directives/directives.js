@@ -6,7 +6,9 @@
       return {
         link: function (scope, element, attrs) {
           // initialize sideNav
-          $('.button-collapse').sideNav();
+          $('.button-collapse').sideNav({
+            //edge: 'right'
+          });
         },
         templateUrl: (config.viewsDirectives + 'menu/index.html')
       };

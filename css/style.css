@@ -14,9 +14,12 @@
 /* 
 html { color: #144A54; font-family: Martel, Calibri, Trebuchet, sans-serif; }
 */
-.navbar-fixed { height: inherit; }
 .no-margin { margin: 0; }
 .no-padding { margin: 0; }
+.landingpage .navbar-fixed { height: inherit; }
+.landingpage .navbar-fixed nav { background-color: transparent; box-shadow: initial; }
+.landingpage .navbar-fixed nav .nav-wrapper { margin-top: 20px; }
+.landingpage .top-navbar { background-color: rgba(194, 202, 209, 0.6);; height: 30px; }
 /**************************
  * MEDIA QUIERIES
  **************************/
