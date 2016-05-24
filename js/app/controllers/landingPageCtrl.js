@@ -18,7 +18,9 @@
       });
       
       // move sections from menu
-      $scope.moveTo = function (slideIndex) {
+      $scope.moveTo = function (evt, slideIndex) {
+        $('ul#nav-mobile li').removeClass('active');
+        $(evt.target).parent().addClass('active');
         $.fn.fullpage.moveTo(0, slideIndex);
       };
 

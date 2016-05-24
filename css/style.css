@@ -18,8 +18,12 @@ html { color: #144A54; font-family: Martel, Calibri, Trebuchet, sans-serif; }
 .no-padding { margin: 0; }
 .landingpage .navbar-fixed { height: inherit; }
 .landingpage .navbar-fixed nav { background-color: transparent; box-shadow: initial; }
-.landingpage .navbar-fixed nav .nav-wrapper { margin-top: 20px; }
-.landingpage .top-navbar { background-color: rgba(194, 202, 209, 0.6);; height: 30px; }
+.landingpage .navbar-fixed nav .nav-wrapper { margin-right: 10%; margin-top: 60px; }
+.landingpage .navbar-fixed nav .nav-wrapper ul li { height: 30px; line-height: 30px; transition: initial; }
+.landingpage .navbar-fixed nav .nav-wrapper ul li a:hover, 
+.landingpage .navbar-fixed nav .nav-wrapper ul li.active { background-color: rgba(0,0,0,.2); -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; -moz-box-shadow: inset 0 8px 8px -6px #586670, inset 0 -4px 4px -6px #586670; -webkit-box-shadow: inset 0 8px 8px -6px #586670, inset 0 -4px 4px -6px #586670; box-shadow: inset 0 8px 8px -6px #586670, inset 0 -4px 4px -6px #586670; } 
+.landingpage .navbar-fixed nav .nav-wrapper ul li a { padding: 0 20px; transition: initial; } 
+.landingpage .top-navbar { background-color: rgba(194, 202, 209, 0.6);  height: 30px; }
 /**************************
  * MEDIA QUIERIES
  **************************/
